@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Facilities" max_length="40" name="x_58872_needit_facilities" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category Facilities" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Test1" sequence="0" value="test1"/>
+                <element label="Test2" sequence="1" value="test2"/>
+                <element label="Test3" sequence="2" value="test3"/>
+                <element label="Test4" sequence="3" value="test4"/>
+            </choice>
+        </element>
+    </element>
+</database>
